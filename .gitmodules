@@ -1,0 +1,3 @@
+[submodule ".supanity"]
+	path = .supanity
+	url = https://github.com/getexp-labs/supanity.git
