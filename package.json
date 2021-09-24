@@ -1,0 +1,20 @@
+{
+  "name": "quasar-app-extension-sn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd .supanity && npm i && npm i ../ && npx quasar ext invoke sn && npx quasar build -m spa"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getexp-labs/supanity-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/getexp-labs/supanity-demo/issues"
+  },
+  "homepage": "https://github.com/getexp-labs/supanity-demo#readme"
+}
